@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'https://api-football-v1.p.rapidapi.com/v3';
+const BASE_URL = import.meta.env.VITE_API_BASE_URL;
 const HEADERS = {
   'X-RapidAPI-Key': import.meta.env.VITE_API_KEY,
   'X-RapidAPI-Host': import.meta.env.VITE_API_HOST,
